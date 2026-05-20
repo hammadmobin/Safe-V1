@@ -34,17 +34,17 @@ SAFE_Detection/
 ## Methods
 
 ### Baselines (5)
-| Method | Type | Expected F1 |
-|--------|------|-------------|
+| Method | Type |
+|--------|------|
 | GLTR (gpt-neo-1.3B) | Statistical | 
 | DetectGPT (span-deletion) | Statistical | 
 | Naive Bayes + TF-IDF | Classical ML |
 | Random Forest + Stylometric | Classical ML | 
 | OpenAI Detector (head FT) | Pre-trained | 
 
-### Proposed Methods (4)
-| Method | Type | Expected F1 |
-|--------|------|-------------|
+### Proposed Methods (2)
+| Method | Type |
+|--------|------|
 | RoBERTa-base fine-tuned | Supervised | 
 | DeBERTa-v3-base fine-tuned | Supervised | 
 
