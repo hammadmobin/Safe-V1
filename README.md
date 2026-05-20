@@ -36,19 +36,18 @@ SAFE_Detection/
 ### Baselines (5)
 | Method | Type | Expected F1 |
 |--------|------|-------------|
-| GLTR (gpt-neo-1.3B) | Statistical | ~60–65% |
-| DetectGPT (span-deletion) | Statistical | ~62–68% |
-| Naive Bayes + TF-IDF | Classical ML | ~65–70% |
-| Random Forest + Stylometric | Classical ML | ~68–72% |
-| OpenAI Detector (head FT) | Pre-trained | ~72–78% |
+| GLTR (gpt-neo-1.3B) | Statistical | 
+| DetectGPT (span-deletion) | Statistical | 
+| Naive Bayes + TF-IDF | Classical ML |
+| Random Forest + Stylometric | Classical ML | 
+| OpenAI Detector (head FT) | Pre-trained | 
 
 ### Proposed Methods (4)
 | Method | Type | Expected F1 |
 |--------|------|-------------|
-| RoBERTa-base fine-tuned | Supervised | ~85–90% |
-| DeBERTa-v3-base fine-tuned | Supervised | ~88–93% |
-| SAFE Text-Only | Proposed | ~90–93% |
-| SAFE+Stylometric | Proposed | ~91–94% |
+| RoBERTa-base fine-tuned | Supervised | 
+| DeBERTa-v3-base fine-tuned | Supervised | 
+
 
 ## Setup
 
@@ -110,7 +109,3 @@ Results are saved to the `results/` folder:
 - `SAFE_heatmap_strategy.png` — F1 heatmap by prompting strategy
 - `SAFE_heatmap_category.png` — F1 heatmap by product category
 
-## Citation
-
-If you use this code, please cite:  
-Mobin, M. H. (2026). *SAFE: Suspicious vs. Authentic Feedback Evaluation for Detecting LLM-Generated Reviews on E-Commerce Platforms*. Master's Thesis, Texas State University.
