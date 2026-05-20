@@ -19,7 +19,7 @@ GLM_NAME          = 'EleutherAI/gpt-neo-1.3B'   # GLTR + DetectGPT reference mod
 OPENAI_DET_MODEL  = 'roberta-base-openai-detector'
 
 # ── Sampling ──────────────────────────────────────────────────
-SAMPLE_SIZE = 5000   # reviews per class per experiment (300 human + 300 AI = 600 total)
+SAMPLE_SIZE = 5000   # reviews per class per experiment 
 
 # ── Batch Sizes (tuned for H100 80GB) ────────────────────────
 GLTR_BATCH     = 64    # inference batch for GLTR / DetectGPT
